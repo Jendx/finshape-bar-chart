@@ -30,3 +30,8 @@ npm install @jendx/finshape-bar-chart
 + run `pnpm sandbox`
 
 If `pnpm sandbox` fails try installing bun globaly `npm install bun -g`
+
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/0cac580b-3fdb-4e35-8ca7-9293218aea75" />
+
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/42db6da7-d10d-4073-bc54-4558e258a499" />
+
