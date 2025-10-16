@@ -1,5 +1,10 @@
 {
-  "__name__": "Graf",
+  "__name__": "Bar Chart",
   "__category__.axis": "Axis",
-  "interval": "Interval"
+  "titleAxisX": "X axis label",
+  "titleAxisY": "Y axis label",
+  "axisYPrefix": "Prefix of axis Y value",
+  "inputData": "Input Data",
+  "removeButton": "Remove Item",
+  "addItem": "Add Item"
 }

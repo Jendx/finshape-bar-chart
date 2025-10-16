@@ -1,5 +1,10 @@
 {
-  "__name__": "Graf",
+  "__name__": "Sloupcový graf",
   "__category__.axis": "Osy",
-  "interval": "Interval"
+  "titleAxisX": "Název osy X",
+  "titleAxisY": "Název osy Y",
+  "axisYPrefix": "Předpona hodnot osy Y",
+  "inputData": "Vstupní data",
+  "removeButton": "Odebrat položku",
+  "addItem": "Přidat položku"
 }

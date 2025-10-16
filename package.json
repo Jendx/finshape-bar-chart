@@ -7,14 +7,16 @@
     "@babel/preset-env": "^7.28.3",
     "@fluentui/react-icons": "^2.0.310",
     "@testing-library/react": "^16.3.0",
+    "expo-linear-gradient": "^15.0.7",
+    "react-hook-form": "^7.65.0",
     "react-native": "^0.81.4",
+    "react-native-gifted-charts": "^1.4.64",
+    "react-native-linear-gradient": "^2.8.3",
     "react-native-web": "^0.21.1"
   },
   "devDependencies": {
-    "@alfons-app/eslint-config": "0.19.0",
     "@alfons-app/sandbox": "0.19.0",
-    "@bory875/effects-timer": "link:",
-    "@eslint/js": "^9.37.0",
+    "@jendx/finshape-bar-chart": "link:",
     "@jendx/finshape-effects-timer": "link:",
     "@testing-library/jest-native": "^5.4.3",
     "@testing-library/react-hooks": "^8.0.1",
@@ -24,22 +26,13 @@
     "@types/react-dom": "19.1.7",
     "babel-plugin-module-resolver": "5.0.2",
     "babel-preset-expo": "~54.0.3",
-    "eslint": "^9.37.0",
-    "eslint-plugin-react": "^7.37.5",
     "globals": "^16.4.0",
     "jest": "^29.7.0",
     "jest-expo": "^54.0.12",
     "jiti": "^2.6.1",
     "react": "19.1.0",
     "react-test-renderer": "18.2.0",
-    "typescript": "~5.9.2",
-    "typescript-eslint": "^8.46.1"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@alfons-app"
-    ],
-    "root": true
+    "typescript": "~5.9.2"
   },
   "jest": {
     "passWithNoTests": true,
@@ -49,7 +42,7 @@
     ]
   },
   "license": "",
-  "name": "@jendx/finshape-effects-timer",
+  "name": "@jendx/finshape-bar-chart",
   "peerDependencies": {
     "react": "19.1.0"
   },
@@ -59,7 +52,6 @@
     "scope": "jendx"
   },
   "scripts": {
-    "lint": "eslint . --fix",
     "sandbox": "sandbox",
     "test": "jest --silent",
     "test:watch": "jest --watchAll",
