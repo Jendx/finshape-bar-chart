@@ -13,6 +13,12 @@ const BarChartPlugin: Element<BarChartProps> = ({ axis, inputData }: BarChartPro
   ? Math.max(...inputData.map((d) => Number.isFinite(d.value) ? d.value : 0))
   : 0;
   
+  const formattedData = inputData.map(data => ({
+    label: data.label,
+    value: data.value,
+    frontColor: data.style?.frontColor
+  }));
+
   return (
     <View style={{ flexDirection: 'column', alignItems: 'baseline' }}>
       { axis.axisY && <Text>
@@ -22,7 +28,7 @@ const BarChartPlugin: Element<BarChartProps> = ({ axis, inputData }: BarChartPro
       <View style={{ flex: 1 }}>
         <BarChart
           width={inputData.length * 100}
-          data={inputData.map(data => ({ label: data.label, value: data.value, frontColor: data.style?.frontColor}))}
+          data={formattedData}
           barWidth={20}
           spacing={20}
           maxValue={maxValue + 200}
